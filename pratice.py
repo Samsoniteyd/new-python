@@ -89,49 +89,76 @@
     
 
 
-def addition(x,y):
-    total= x + y
-    return f'{x} + {y}= {total}'
-def substitute(x,y):
-    total = x - y
-    return f'{x} - {y}= {total}'
-def multiplication(x,y):
-    total =x * y
-    return f'{x} * {y}= {total}'
-def division(x,y):
-    total= x / y
-    return f'{x} / {y}= {total}'
-print(f'''
-        welcome to divetech number1
-        please enter your preferred number:
-        1.Addition
-        2.Substitution
-        3.Multiplication
-        4.Division
-        ''')
-select= int(input('enter your number choosed'))
-if select==1:
-    print('number you entered is addition')
-    num1=input('enter any number')
-    num2=input('enter any number')
-    print(addition(num1,num2))
-elif select==2:
-     print('number you entered is substitution')
-     num1=input('enter any number')
-     num2=input('enter any number')
-     print(substitute(num1,num2))
-elif select==3:
-    print('number you entered is multiplication')
-    num1=input('enter any number')
-    num2=input('enter any number')
-    print(multiplication(num1,num2))
-elif select==4:
-    print('number you entered is division')
-    num1=input('enter any number')
-    num2=input('enter any number')
-    print(division(num1,num2))
-else:
-      print('error out of scope')
+# def addition(x,y):
+#     total= x + y
+#     return f'{x} + {y}= {total}'
+# def substitute(x,y):
+#     total = x - y
+#     return f'{x} - {y}= {total}'
+# def multiplication(x,y):
+#     total =x * y
+#     return f'{x} * {y}= {total}'
+# def division(x,y):
+#     total= x / y
+#     return f'{x} / {y}= {total}'
+# print(f'''
+#         welcome to divetech number1
+#         please enter your preferred number:
+#         1.Addition
+#         2.Substitution
+#         3.Multiplication
+#         4.Division
+#         ''')
+# select= int(input('enter your number choosed'))
+# if select==1:
+#     print('number you entered is addition')
+#     num1=input('enter any number')
+#     num2=input('enter any number')
+#     print(addition(num1,num2))
+# elif select==2:
+#      print('number you entered is substitution')
+#      num1=input('enter any number')
+#      num2=input('enter any number')
+#      print(substitute(num1,num2))
+# elif select==3:
+#     print('number you entered is multiplication')
+#     num1=input('enter any number')
+#     num2=input('enter any number')
+#     print(multiplication(num1,num2))
+# elif select==4:
+#     print('number you entered is division')
+#     num1=input('enter any number')
+#     num2=input('enter any number')
+#     print(division(num1,num2))
+# else:
+#       print('error out of scope')
 
+
+# import time
+# name = 'sam'
+# for i in range():
+#     time.sleep(3)
+#     continue
+# print(name)    
+
+# import time
+
+# counter = 30
+# start_time = time.time()
+# while time.time() - start_time < counter:
+#     print('sam')
+#     time.sleep(3)
+
+
+
+from long import fullname
+print('amoo samson')
+
+# sam= datetime.date.today(yu)
+# print(sam)
+
+# name= 'amoo'
+# for i in range(6):
+#     print(name)
 
 
