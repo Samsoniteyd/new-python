@@ -80,12 +80,12 @@
 #     print(f'the {num} * {i}= {total}')
  
 
-# num = int(input('input any number:'))
-# for i in range(1, num+1):
-#     print('\n')
-#     for m in range(1,13):
-#         total2 = m*i
-#         print(f'{m}* {i}= {total2}')
+num = int(input('input any number:'))
+for i in range(1, num+1):
+    print('\n')
+    for m in range(1,13):
+        total2 = m*i
+        print(f'{m}* {i}= {total2}')
     
 
 
